@@ -1,0 +1,152 @@
+.firstbox{
+    border: solid 1px black hidden;
+    height: 400px;
+    width: 100%;
+    background-image: url(backgroundmainpage.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+#login,#signup,#line{
+font-size: 30px;
+color: white;
+text-decoration: none;
+}
+#title{
+    color: #eead0a;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 65px;
+    text-shadow: 0px 0px 15px #eead0a;
+}
+.secondbox{
+    border: solid 1px black hidden;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+#flowerimage{
+    border-radius: 50%;
+}
+#menutext{
+    text-align: center;
+    color: black;
+    size: 300px;
+    text-decoration: none;
+}
+.thirdbox{
+    border: solid 1px black hidden;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#animation{
+    border: solid 1px black hidden;
+    height: 300px;
+    width: 400px;
+    background-image: url(datura.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name:imageschanging ;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes imageschanging{
+    10%{
+        background-image: url(datura.jpg);
+    }
+    20%{
+        background-image: url(delphinium.jpg);
+    }
+    30%{
+        background-image: url(sunflowerseeds.jpg);
+    }
+    40%{
+        background-image: url(datura.jpg);
+    }
+    50%{
+        background-image: url(delphinium.jpg);
+    }
+    60%{
+        background-image: url(sunflowerseeds.jpg);
+    }
+}
+#static{
+    border: solid 1px black hidden;
+    height: 300px;
+    width: 400px;
+    background-image: url(static.jpg);
+    overflow: hidden;
+    background-size: 400px 300px;
+    background-repeat: no-repeat; 
+}
+#static1{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+   padding-top: 100px;
+    color: darkgreen;
+    transition-duration: 2s;
+}
+#static1:hover#static1{
+    transform: scale(1.5);
+}
+#inbox2{
+    border: solid 1px rgb(224, 21, 21) hidden;
+    height: 600px;
+    width: 900px;
+    /* display: flex; */
+    justify-content: space-between;
+     }
+
+#row1{
+    border: solid 1px green hidden;
+    height: 265px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;   
+}
+#rowA5{
+    border: solid 1px green hidden;
+    height: 265px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: space-between;    */
+}
+#inrow1{
+    border: solid 1px gray hidden;
+    height: 263px;
+    width: 269px;
+}
+#inrowA5{
+    border: solid 1px gray hidden;
+    height: 263px;
+    width: 269px;
+    padding-right: 20PX;
+}
+#plant{
+    border: solid 1px black;
+    height: 263px;
+    width: 269px;
+}
+#description{
+    text-align: center;
+    color: black;
+}
+.fourthbox{
+    border: solid 1px black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: hsl(0, 2%, 45%);
+}
+#c1 ul li{
+    list-style: none;
+}

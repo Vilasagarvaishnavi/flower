@@ -1,0 +1,16 @@
+body{
+    background-image: url(sinup.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+}
+.box{
+    border: solid 1px black;
+    height: 230px;
+    width: 350px;
+    padding-left: 10px;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+#input{
+    font-size: 25px;
+}

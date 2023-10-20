@@ -1,0 +1,81 @@
+.box{
+    border: solid 1px black hidden;
+   height: 604px;
+   width: 1200px;
+}
+#row1{
+    border: solid 1px green hidden;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+#row2{
+    border: solid 1px blue hidden;
+    height: 300px;
+    width: 1200px;
+display: flex;
+}
+#pic1{
+    border: solid 1px yellow hidden;
+    height: 300px;
+    width: 300px;
+}
+#pic2{
+    border: solid 1px rgb(240, 41, 174) hidden;
+    height: 300px;
+    width: 300px;
+    padding-right: 145px;
+}
+#d1{
+    border: solid 1px black hidden;
+    height: 38px;
+    width: 300px;
+    font-size: 15px;
+}
+#d2{
+    border: solid 1px black hidden;
+    height: 35px;
+    width: 300px;
+    font-size: 15px;
+}
+#cost1{
+    padding-left: 225px;
+    font-size: 12px;
+}
+#cost2{
+    padding-left: 200px;
+    font-size: 12px;
+}
+#cost3{
+    padding-left: 205px;
+    font-size: 12px;
+}
+#cost4{
+    padding-left: 230px;
+    font-size: 12px;
+}
+#cost5{
+    padding-left: 180px;
+    font-size: 12px;
+}
+.chnagingcolor{
+    color: yellow;
+}
+#imagebox{
+    height: 260px;
+    width: 300px;
+    overflow: hidden;
+}
+#image{
+    height: 260px;
+    width: 300px;
+    transition-duration: 2s;
+}
+#image:hover#image{
+    transform: scale(2);
+}
+
+
+
+

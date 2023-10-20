@@ -1,0 +1,40 @@
+body{
+    background-image: url(login.jpg);
+    background-repeat:no-repeat;
+    background-size: 1400px 700px;
+}
+.login{
+    border: solid 1px black;
+    height: 250px;
+    width: 400px;
+    padding-left: 5px;
+    margin-left: 900px;
+   margin-top: 50px;
+}
+#login{
+    text-align: center;
+    columns: white;
+    
+}
+#enterflied{
+    font-size: 25px;
+    color: white;
+}
+#loginbtn{
+    font-size: 20px;
+    color: black;
+    background-color:white;
+    text-decoration:none
+}
+#forgot{
+    font-size: 20px;
+    color: white;
+    padding-left: 150px;
+    text-decoration: none;
+}
+#signup{
+    font-size: 20px;
+    color: white;
+    padding-left: 150px;
+    text-decoration: none;
+}
